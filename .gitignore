@@ -208,3 +208,6 @@ __marimo__/
 
 #Exclude .idea
 .idea/
+
+.idea/             # IntelliJ/PyCharm project configuration folder
+*.iml
