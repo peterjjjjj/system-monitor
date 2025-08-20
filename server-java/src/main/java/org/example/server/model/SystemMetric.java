@@ -2,6 +2,9 @@ package org.example.server.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class SystemMetric {
     //Jason format metric.
     @JsonProperty("hostname")
@@ -24,7 +27,6 @@ public class SystemMetric {
 
     @JsonProperty("memory_percentage")
     private double memoryPercentage;
-
 
     public SystemMetric() {}
 
