@@ -1,4 +1,4 @@
-package org.example;
+package org.example.server.server;
 
 
 import org.springframework.boot.SpringApplication;
