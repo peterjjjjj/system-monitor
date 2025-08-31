@@ -1,6 +1,6 @@
-package org.example.server.server;
+package server.server;
 
-import org.example.server.model.SystemMetric;
+import server.model.SystemMetric;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
