@@ -212,4 +212,4 @@ __marimo__/
 .idea/             # IntelliJ/PyCharm project configuration folder
 *.iml
 
-/production/
+/server-java/production/
