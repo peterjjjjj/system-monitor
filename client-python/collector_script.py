@@ -49,6 +49,7 @@ def send_metrics(system_data: dict, server_url: str) -> None:
     """
 
     try:
+        #Send Data to server.
         response = requests.post(server_url, json=system_data)
         response.raise_for_status()
         print('Successfully sent metrics to server')
@@ -58,6 +59,7 @@ def send_metrics(system_data: dict, server_url: str) -> None:
 
 
 if __name__ == '__main__':
+    #Localhost 8080.
     SERVER_URL = "http://localhost:8080/metrics"
     COLLECTION_INTERVAL_SECONDS = 5
 
