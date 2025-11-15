@@ -61,7 +61,7 @@ def send_metrics(system_data: dict, server_url: str) -> None:
 if __name__ == '__main__':
     #Localhost 8080.
     SERVER_URL = "http://localhost:8080/metrics"
-    COLLECTION_INTERVAL_SECONDS = 5
+    COLLECTION_INTERVAL_SECONDS = 10
 
     while True:
         system_data = collect_system_data()
@@ -70,5 +70,5 @@ if __name__ == '__main__':
         send_metrics(system_data, SERVER_URL)
         print("Data sent to url.")
 
-        #Wait for 5 seconds.
+        #Wait for 10 seconds.
         time.sleep(COLLECTION_INTERVAL_SECONDS)

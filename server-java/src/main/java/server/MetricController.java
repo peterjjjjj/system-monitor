@@ -1,10 +1,7 @@
-package server.server;
+package server;
 
-import server.model.SystemMetric;
+import model.SystemMetric;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.ArrayList;
-import java.util.List;
 
 @RestController
 //This class is to handle the page /metrics.
